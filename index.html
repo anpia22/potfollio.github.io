@@ -537,13 +537,13 @@
                 localStorage.setItem('anups', 'yes');
             }, 11000);
         });
-        for (let i = 0; i < localStorage.length; i++) {
-            let key = localStorage.key(i);
-            if (localStorage.getItem(key) === 'yes') {
-                loader.style.display = 'none';
-                afterLoading.style.display = 'block';
-            }
-        }
+        // for (let i = 0; i < localStorage.length; i++) {
+        //     let key = localStorage.key(i);
+        //     if (localStorage.getItem(key) === 'yes') {
+        //         loader.style.display = 'none';
+        //         afterLoading.style.display = 'block';
+        //     }
+        // }
 
         var typed = new Typed('#element', {
             strings: ['Web Developer', 'Software Developer.', 'Frontend Developer.'],
